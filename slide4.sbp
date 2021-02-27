@@ -1,0 +1,196 @@
+&vssup =15
+&vsink =3
+&vsled =3
+&liftheight =20
+&barriery =-120
+&h =0.3
+&supx =0
+&supy =0
+&inkx =0
+&inky =0
+&ledx =-300.209
+&ledy =-16.942
+J2,&inkx+-1,&inky+-1
+JZ,&h
+SO, 1, 0
+SO, 2, 1
+MS,&vsink
+J2,&inkx+-1,&inky+-2.5
+M2,&inkx+-1,&inky+-2.5
+M2,&inkx+-10,&inky+-2.5
+M2,&inkx+-10,&inky+-2.8
+M2,&inkx+-1,&inky+-2.8
+M2,&inkx+-1,&inky+-3.1
+M2,&inkx+-10,&inky+-3.1
+M2,&inkx+-10,&inky+-3.4
+M2,&inkx+-1,&inky+-3.4
+M2,&inkx+-1,&inky+-3.7
+M2,&inkx+-10,&inky+-3.7
+M2,&inkx+-10,&inky+-4
+M2,&inkx+-1,&inky+-4
+JZ,&liftheight
+J2,-32.0853+&inkx,-26.6515+&inky
+JZ,&h
+M2,-23.9515+&inkx,-34.7853+&inky
+M2,-12.4485+&inkx,-34.7853+&inky
+M2,-4.3147+&inkx,-26.6515+&inky
+M2,-4.3147+&inkx,-15.1485+&inky
+M2,-12.4485+&inkx,-7.0147+&inky
+M2,-23.9515+&inkx,-7.0147+&inky
+M2,-32.0853+&inkx,-15.1485+&inky
+M2,-32.0853+&inkx,-26.6515+&inky
+M2,-32.3853+&inkx,-26.7757+&inky
+M2,-24.0757+&inkx,-35.0853+&inky
+M2,-12.3243+&inkx,-35.0853+&inky
+M2,-4.0147+&inkx,-26.7757+&inky
+M2,-4.0147+&inkx,-15.0243+&inky
+M2,-12.3243+&inkx,-6.7147+&inky
+M2,-24.0757+&inkx,-6.7147+&inky
+M2,-32.3853+&inkx,-15.0243+&inky
+M2,-32.3853+&inkx,-26.7757+&inky
+M2,-32.6853+&inkx,-26.9+&inky
+M2,-24.2+&inkx,-35.3853+&inky
+M2,-12.2+&inkx,-35.3853+&inky
+M2,-3.7147+&inkx,-26.9+&inky
+M2,-3.7147+&inkx,-14.9+&inky
+M2,-12.2+&inkx,-6.4147+&inky
+M2,-24.2+&inkx,-6.4147+&inky
+M2,-32.6853+&inkx,-14.9+&inky
+M2,-32.6853+&inkx,-26.9+&inky
+JZ,&h+1
+J2,-60.9+&inkx,-10.4+&inky
+JZ,&h
+M2,-54.1+&inkx,-10.4+&inky
+M2,-54.1+&inkx,-3.6+&inky
+M2,-60.9+&inkx,-3.6+&inky
+M2,-60.9+&inkx,-10.4+&inky
+M2,-61.2+&inkx,-10.7+&inky
+M2,-53.8+&inkx,-10.7+&inky
+M2,-53.8+&inkx,-3.3+&inky
+M2,-61.2+&inkx,-3.3+&inky
+M2,-61.2+&inkx,-10.7+&inky
+M2,-61.5+&inkx,-11+&inky
+M2,-53.5+&inkx,-11+&inky
+M2,-53.5+&inkx,-3+&inky
+M2,-61.5+&inkx,-3+&inky
+M2,-61.5+&inkx,-11+&inky
+JZ,&h+1
+J2,-60.3569+&inkx,-30.0515+&inky
+JZ,&h
+M2,-55.0515+&inkx,-35.3569+&inky
+M2,-47.5485+&inkx,-35.3569+&inky
+M2,-42.2431+&inkx,-30.0515+&inky
+M2,-42.2431+&inkx,-22.5485+&inky
+M2,-47.5485+&inkx,-17.2431+&inky
+M2,-55.0515+&inkx,-17.2431+&inky
+M2,-60.3569+&inkx,-22.5485+&inky
+M2,-60.3569+&inkx,-30.0515+&inky
+M2,-60.6569+&inkx,-30.1757+&inky
+M2,-55.1757+&inkx,-35.6569+&inky
+M2,-47.4243+&inkx,-35.6569+&inky
+M2,-41.9431+&inkx,-30.1757+&inky
+M2,-41.9431+&inkx,-22.4243+&inky
+M2,-47.4243+&inkx,-16.9431+&inky
+M2,-55.1757+&inkx,-16.9431+&inky
+M2,-60.6569+&inkx,-22.4243+&inky
+M2,-60.6569+&inkx,-30.1757+&inky
+M2,-60.9569+&inkx,-30.3+&inky
+M2,-55.3+&inkx,-35.9569+&inky
+M2,-47.3+&inkx,-35.9569+&inky
+M2,-41.6431+&inkx,-30.3+&inky
+M2,-41.6431+&inkx,-22.3+&inky
+M2,-47.3+&inkx,-16.6431+&inky
+M2,-55.3+&inkx,-16.6431+&inky
+M2,-60.9569+&inkx,-22.3+&inky
+M2,-60.9569+&inkx,-30.3+&inky
+JZ,&h+1
+SO, 2, 0
+SO, 1, 0
+JZ,&liftheight
+JY,&barriery
+JX,&ledx
+J2,&ledx+-1,&ledy+-1
+JZ,&h
+SO, 1, 0
+SO, 2, 0
+MS,&vsled
+J2,-32.0853+&ledx,-26.6515+&ledy
+JZ,&h
+M2,-23.9515+&ledx,-34.7853+&ledy
+M2,-12.4485+&ledx,-34.7853+&ledy
+M2,-4.3147+&ledx,-26.6515+&ledy
+M2,-4.3147+&ledx,-15.1485+&ledy
+M2,-12.4485+&ledx,-7.0147+&ledy
+M2,-23.9515+&ledx,-7.0147+&ledy
+M2,-32.0853+&ledx,-15.1485+&ledy
+M2,-32.0853+&ledx,-26.6515+&ledy
+M2,-32.3853+&ledx,-26.7757+&ledy
+M2,-24.0757+&ledx,-35.0853+&ledy
+M2,-12.3243+&ledx,-35.0853+&ledy
+M2,-4.0147+&ledx,-26.7757+&ledy
+M2,-4.0147+&ledx,-15.0243+&ledy
+M2,-12.3243+&ledx,-6.7147+&ledy
+M2,-24.0757+&ledx,-6.7147+&ledy
+M2,-32.3853+&ledx,-15.0243+&ledy
+M2,-32.3853+&ledx,-26.7757+&ledy
+M2,-32.6853+&ledx,-26.9+&ledy
+M2,-24.2+&ledx,-35.3853+&ledy
+M2,-12.2+&ledx,-35.3853+&ledy
+M2,-3.7147+&ledx,-26.9+&ledy
+M2,-3.7147+&ledx,-14.9+&ledy
+M2,-12.2+&ledx,-6.4147+&ledy
+M2,-24.2+&ledx,-6.4147+&ledy
+M2,-32.6853+&ledx,-14.9+&ledy
+M2,-32.6853+&ledx,-26.9+&ledy
+JZ,&h+1
+J2,-60.9+&ledx,-10.4+&ledy
+JZ,&h
+M2,-54.1+&ledx,-10.4+&ledy
+M2,-54.1+&ledx,-3.6+&ledy
+M2,-60.9+&ledx,-3.6+&ledy
+M2,-60.9+&ledx,-10.4+&ledy
+M2,-61.2+&ledx,-10.7+&ledy
+M2,-53.8+&ledx,-10.7+&ledy
+M2,-53.8+&ledx,-3.3+&ledy
+M2,-61.2+&ledx,-3.3+&ledy
+M2,-61.2+&ledx,-10.7+&ledy
+M2,-61.5+&ledx,-11+&ledy
+M2,-53.5+&ledx,-11+&ledy
+M2,-53.5+&ledx,-3+&ledy
+M2,-61.5+&ledx,-3+&ledy
+M2,-61.5+&ledx,-11+&ledy
+JZ,&h+1
+J2,-60.3569+&ledx,-30.0515+&ledy
+JZ,&h
+M2,-55.0515+&ledx,-35.3569+&ledy
+M2,-47.5485+&ledx,-35.3569+&ledy
+M2,-42.2431+&ledx,-30.0515+&ledy
+M2,-42.2431+&ledx,-22.5485+&ledy
+M2,-47.5485+&ledx,-17.2431+&ledy
+M2,-55.0515+&ledx,-17.2431+&ledy
+M2,-60.3569+&ledx,-22.5485+&ledy
+M2,-60.3569+&ledx,-30.0515+&ledy
+M2,-60.6569+&ledx,-30.1757+&ledy
+M2,-55.1757+&ledx,-35.6569+&ledy
+M2,-47.4243+&ledx,-35.6569+&ledy
+M2,-41.9431+&ledx,-30.1757+&ledy
+M2,-41.9431+&ledx,-22.4243+&ledy
+M2,-47.4243+&ledx,-16.9431+&ledy
+M2,-55.1757+&ledx,-16.9431+&ledy
+M2,-60.6569+&ledx,-22.4243+&ledy
+M2,-60.6569+&ledx,-30.1757+&ledy
+M2,-60.9569+&ledx,-30.3+&ledy
+M2,-55.3+&ledx,-35.9569+&ledy
+M2,-47.3+&ledx,-35.9569+&ledy
+M2,-41.6431+&ledx,-30.3+&ledy
+M2,-41.6431+&ledx,-22.3+&ledy
+M2,-47.3+&ledx,-16.6431+&ledy
+M2,-55.3+&ledx,-16.6431+&ledy
+M2,-60.9569+&ledx,-22.3+&ledy
+M2,-60.9569+&ledx,-30.3+&ledy
+JZ,&h+1
+SO, 2, 0
+SO, 1, 0
+JZ,&liftheight
+JY, &barriery
+JX,&inkx+80

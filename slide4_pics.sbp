@@ -1,0 +1,525 @@
+&vssup =15
+&vsink =12
+&vsled =5
+&liftheight =10
+&barriery =-120
+&h =0.3
+&supx =0
+&supy =0
+&inkx =108.7
+&inky =-0.4
+&ledx =-190.6
+&ledy =-14.6
+&pausetime = 0.5
+&pausetime2 = 1
+JZ,&liftheight
+JS,30
+J2,&inkx-10,&inky-10
+JZ,&h*2
+J2, &inkx +-32.3853, &inky +-26.7757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-29.8853, &inky +-29.2757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-27.3853, &inky +-31.7757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-24.8853, &inky +-34.2757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-24.0757, &inky +-35.0853
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-20.5757, &inky +-35.0853
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-17.0757, &inky +-35.0853
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-13.5757, &inky +-35.0853
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-12.3243, &inky +-35.0853
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-9.8243, &inky +-32.5853
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-7.3243, &inky +-30.0853
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-4.8243, &inky +-27.5853
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-4.0147, &inky +-26.7757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-4.0147, &inky +-24.2757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-4.0147, &inky +-21.7757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-4.0147, &inky +-19.2757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-4.0147, &inky +-16.7757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-4.0147, &inky +-15.0243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-6.5147, &inky +-12.5243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-9.0147, &inky +-10.0243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-11.5147, &inky +-7.5243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-12.3243, &inky +-6.7147
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-15.8243, &inky +-6.7147
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-19.3243, &inky +-6.7147
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-22.8243, &inky +-6.7147
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-24.0757, &inky +-6.7147
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-26.5757, &inky +-9.2147
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-29.0757, &inky +-11.7147
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-31.5757, &inky +-14.2147
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-32.3853, &inky +-15.0243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-32.3853, &inky +-17.5243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-32.3853, &inky +-20.0243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-32.3853, &inky +-22.5243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-32.3853, &inky +-25.0243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-61.2, &inky +-10.7
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-57.7, &inky +-10.7
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-54.2, &inky +-10.7
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-53.8, &inky +-10.7
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-53.8, &inky +-8.2
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-53.8, &inky +-5.7
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-53.8, &inky +-3.3
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-57.3, &inky +-3.3
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-60.8, &inky +-3.3
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-61.2, &inky +-3.3
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-61.2, &inky +-5.8
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-61.2, &inky +-8.3
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-60.6569, &inky +-30.1757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-58.1569, &inky +-32.6757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-55.6569, &inky +-35.1757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-55.1757, &inky +-35.6569
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-51.6757, &inky +-35.6569
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-48.1757, &inky +-35.6569
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-47.4243, &inky +-35.6569
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-44.9243, &inky +-33.1569
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-42.4243, &inky +-30.6569
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-41.9431, &inky +-30.1757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-41.9431, &inky +-27.6757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-41.9431, &inky +-25.1757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-41.9431, &inky +-22.6757
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-41.9431, &inky +-22.4243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-44.4431, &inky +-19.9243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-46.9431, &inky +-17.4243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-47.4243, &inky +-16.9431
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-50.9243, &inky +-16.9431
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-54.4243, &inky +-16.9431
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-55.1757, &inky +-16.9431
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-57.6757, &inky +-19.4431
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-60.1757, &inky +-21.9431
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-60.6569, &inky +-22.4243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-60.6569, &inky +-24.9243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-60.6569, &inky +-27.4243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+J2, &inkx +-60.6569, &inky +-29.9243
+PAUSE &pausetime2
+SO, 1, 1
+SO, 2, 0
+PAUSE &pausetime
+SO, 1, 0
+SO, 2, 1
+JZ,&liftheight
+JY, &barriery
+JX, &inkx+100
